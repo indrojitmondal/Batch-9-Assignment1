@@ -187,7 +187,7 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 120px;
-  border: 2px solid rebeccapurple;
+  /* border: 2px solid rebeccapurple; */
   background-size: cover;
   background-position: center;
 }
@@ -326,9 +326,60 @@
   text-align: left;
   margin-bottom: 43px;
   margin-left: 118px;
+  
 }
-.new-best-offer-part3 img{
+
+.new-best-offer-part3 img {
   width: 140px;
   height: 140px;
   margin-left: 122px;
+}
+
+.holidays {
+  width: 1068px;
+  height: 260px;
+  margin: 0 auto;
+  /* border: 2px solid rebeccapurple; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.holidays h3 {
+  width: 263px;
+  height: 29px;
+  color: rgb(7, 2, 17);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+.holidays h1 {
+  width: 677px;
+  height: 91px;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 91px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.holidays p {
+  width: 1068px;
+  height: 96px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: center;
 }
