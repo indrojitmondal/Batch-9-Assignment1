@@ -123,10 +123,11 @@
 
 .midnightparty-leftpart {
   margin-top: 126px;
-  margin-left: 125px;
+  margin-left: 126px;
 }
 
 .midnightparty-leftpart h1 {
+  
   color: rgb(255, 255, 255);
   font-family: Merriweather;
   font-size: 64px;
@@ -136,6 +137,7 @@
   text-align: left;
   width: 642px;
   height: 176px;
+  /* border: 2px solid black; */
   margin-bottom: 24px;
 }
 
@@ -326,7 +328,7 @@
   text-align: left;
   margin-bottom: 43px;
   margin-left: 118px;
-  
+
 }
 
 .new-best-offer-part3 img {
@@ -336,18 +338,27 @@
 }
 
 .holidays {
+  width: 1320px;
+  height: 986px;
+  margin: 0 auto;
+  margin-bottom: 120px;
+  /* border: 2px solid rebeccapurple; */
+
+}
+.holidays-upper-part{
   width: 1068px;
   height: 260px;
-  margin: 0 auto;
-  /* border: 2px solid rebeccapurple; */
+  margin-left: 126px;
+  /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 120px;
-}
+  margin-bottom: 64px;
+  
 
-.holidays h3 {
+}
+ .holidays-upper-part h3 {
   width: 263px;
   height: 29px;
   color: rgb(7, 2, 17);
@@ -360,7 +371,7 @@
   margin-bottom: 16px;
 }
 
-.holidays h1 {
+.holidays-upper-part h1 {
   width: 677px;
   height: 91px;
   font-family: Merriweather;
@@ -372,7 +383,7 @@
   margin-bottom: 28px;
 }
 
-.holidays p {
+.holidays-upper-part p {
   width: 1068px;
   height: 96px;
   color: rgba(7, 2, 17, 0.6);
@@ -382,4 +393,48 @@
   line-height: 32px;
   letter-spacing: 0%;
   text-align: center;
+}
+.holidays-bottom-part{
+  width: 1320px;
+max-height: 662.07px;
+position: relative;
+
+/* border: 2px solid red; */
+} 
+.holidays-bottom-part-up{
+  display: flex;
+  z-index: 2;
+  position: absolute;
+}
+.holidays-bottom-left{
+  width: 796.46px;
+height: 662.07px;
+/* position: absolute; */
+/* border: 2px solid blue; */
+}
+.holidays-bottom-right{
+  
+
+  width: 305.69px;
+height: 305.69px;
+margin-left: 177px;
+margin-top: 77px;
+/* border: 2px solid black; */
+}
+.holidays-bottom-part-down{
+ 
+  margin-top: 433px;
+  width: 1320px;
+  height: 229px;
+   border: 2px solid blueviolet;
+   background-image: url('../images/rectangle\ .png');
+   background-position: cover;
+   background-size: cover;
+   border-radius: 16px 0px 16px 16px;
+
+   background: rgb(255, 0, 0);
+   position: absolute;
+   z-index: 1;
+  
+
 }
