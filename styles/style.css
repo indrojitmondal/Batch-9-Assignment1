@@ -449,7 +449,8 @@
   width: 1320px;
   height: 1163px;
   margin: 0 auto;
-  border: 2px solid red;
+  /* border: 2px solid red; */
+  margin-bottom: 120px;
 
 }
 
@@ -492,17 +493,114 @@
   text-align: left;
   margin-bottom: 48px;
 }
-.best-gift-part1 img, .best-gift-part2 img{
+
+.best-gift-part1 img,
+.best-gift-part2 img {
   display: block;
   width: 424px;
   height: 450px;
 }
-.best-gift-part1, .best-gift-part2{
+
+.best-gift-part1,
+.best-gift-part2 {
   display: flex;
   gap: 24px;
 }
-.best-gift-part-container{
+
+.best-gift-part-container {
   display: flex;
   flex-direction: column;
   gap: 24px;
+}
+
+.subscribe-newsletter {
+  width: 1320px;
+  height: 616px;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  margin: 0 auto;
+  /* border: 2px solid red; */
+  margin-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.subscribe-newsletter img {
+  display: block;
+  width: 131.25px;
+  height: 137.52px;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+.subscribe-newsletter h1 {
+  width: 512px;
+  height: 60px;
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 22px;
+}
+
+.subscribe-newsletter p {
+  width: 896px;
+  height: 64px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.subscribe-class {
+  /* text-align: center; */
+  width: 648px;
+  height: 72px;
+  position: relative;
+  border: none;
+}
+
+.subscribe-class input,
+button {
+  display: block;
+}
+
+.input-class {
+  width: 648px;
+  height: 72px;
+  /* border: 2px solid greenyellow; */
+  position: absolute;
+  padding-left: 30px;
+  z-index: 1;
+  border: none;
+}
+
+.btn-class {
+  width: 210px;
+  height: 72px;
+  border-radius: 0px 50px 50px 0px;
+  background: rgb(255, 0, 0);
+  position: absolute;
+  z-index: 2;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  margin-left: 438px;
+  border: none;
 }
