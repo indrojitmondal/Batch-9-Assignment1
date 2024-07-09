@@ -586,7 +586,7 @@ button {
   border: none;
   outline: none;
   
-}
+} 
 
 .btn-class {
   width: 210px;
@@ -605,14 +605,14 @@ button {
   text-transform: capitalize;
   margin-left: 438px;
   border: none;
-}
+} 
 
 .footer-section {
   width: 1530px;
   height: 609px;
   background: rgb(7, 2, 17);
   margin: 0 auto;
-}
+} 
 .footerPart1-left{
   width: 375px;
 height: 80px;
@@ -638,28 +638,22 @@ letter-spacing: 0%;
 text-align: left;
 margin-top: 120px;
 margin-right: 275px;
-}
-/* .footerPart1-right img{
+} 
 
-} */
-
-.p1 img, span, p2 img, span{
-  display: block;
-}
-.p1, p2{
+ .p1, .p2{
   display: flex;
   flex-direction: row;
   align-items: center;
-  /* justify-content: center; */
-}
+ 
+}  
 .footer-section-part1{
   display: flex;
   justify-content: space-between;
-}
+} 
 .footer-section-part2 img{
   display: block;
-}
-.footer-section-part2{
+} 
+ .footer-section-part2{
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -668,7 +662,7 @@ margin-right: 275px;
   margin-top: 48px;
 
 }
-.footer-section-part3
+ .footer-section-part3
 {
   color: rgb(255, 255, 255);
 font-family: Inter;
@@ -682,10 +676,10 @@ margin-left: 140px;
 display: flex;
 justify-content: space-between;
  
-}
-.footer-section-part3 .unsub{
+} 
+.unsub{
   margin-right: 140px;
-}
+} 
 
 
 
