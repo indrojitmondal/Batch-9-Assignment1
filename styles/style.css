@@ -11,7 +11,7 @@
   background-size: cover;
   border-radius: 16px;
   width: 1320px;
-  min-height: 600px;
+  height: 600px;
   margin: 0 auto;
   margin-top: 50px;
   background-color: rgba(0, 0, 0, 0.5);
@@ -675,5 +675,18 @@ justify-content: space-between;
   margin-right: 140px;
 } 
 
+/* for small device */
+@media screen and (max-width: 576px) {
 
+  .header_content{
+    
+    padding-right: 330px;
+ 
+
+  }
+  .sixty5of{
+     margin-left: 480px;
+  }
+  
+}
 
